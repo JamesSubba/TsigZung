@@ -1,13 +1,195 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background: #9b59b6;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center; 
+}
+.title{
+  color: #8e44ad;
+  margin-left: 10px;
+}
+.upload{
+  margin-left: 90px;
+  color: #8e44ad;
+}
+.form-container {
+  width: 360px;
+  background-color: white;
+  margin: auto;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  padding: 10px;
+}
+.form-container-2{
+  width: 1000px;
+  background-color: white;
+  margin: auto;
+  padding: 10px;
+}
+.form-container-3{
+  width: 500px;
+  background-color: white;
+  margin: auto;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  padding: 10px;
+}
+.form-container-4{
+  width: 700px;
+  background-color: white;
+  margin: auto;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  padding: 10px;
+}
+.form-container-5{
+  width: 600px;
+  background-color: white;
+  margin: auto;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  padding: 10px;
+}
+.register-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+.form-field {
+  margin: 10px 0 10px 0;
+  padding: 15px;
+  font-size: 16px;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+}
+span {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: red;
+  margin-bottom: 15px;
+}
+input {
+  background: #f2f2f2;
+}
+.error {
+  color: #ffa4a4;
+}
+button {
+  background: #8e44ad;
+  color: white;
+  cursor: pointer;
+}
+.button-2 {
+  background: #8e44ad;
+  color: white;
+  cursor: pointer;
+  border: 0;
+  padding: 15px;
+  margin-left: 213px;
+}
+.button-6 {
+  background: #8e44ad;
+  color: white;
+  cursor: pointer;
+  border: 0;
+  padding: 15px;
+  margin-left: 310px;
+}
+.button-3 {
+  background: #8e44ad;
+  color: white;
+  cursor: pointer;
+  border: 0;
+  margin: 10px 0 10px 0;
+  margin-right: 5px;
+  padding: 15px;
+  margin-left: 330px;
+}
+.button-4 {
+  background: #8e44ad;
+  color: white;
+  cursor: pointer;
+  border: 0;
+  margin: 10px 0 10px 0;
+  margin-right: 5px;
+  padding: 15px;
+  margin-left: 475px;
+}
+.button-5 {
+  background: #8e44ad;
+  color: white;
+  cursor: pointer;
+  border: 0;
+  margin: 10px 0 10px 0;
+  margin-right: 5px;
+  padding: 15px;
+  margin-left: 357px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+  transition: 0.3s;
+  width:800px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 12px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+.header{
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background-color: #f7f7f7;
+}
+.header-2{
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+}
+.logo {
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 30px;
+  float: left;
+  padding-left: 30px;
+  color: #8e44ad;   
+}
+.link-group{
+  display: flex;
+  float: right;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-end;
+  transition: 1s;
+  padding-right: 20px;
+}
+.word-content {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+}
+.word-content-content{
+  display: flex;
+}
+.question-no{
+  margin-left: 10px;
+}
+.audio{
+  width: 250px;
+  height: 40px;
 }
