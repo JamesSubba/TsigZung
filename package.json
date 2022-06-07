@@ -19,6 +19,7 @@
     "react-scripts": "5.0.1",
     "redux": "^4.2.0",
     "uuidv4": "^6.2.13",
+    "webpack": "^5.73.0",
     "yup": "^0.32.11"
   },
   "scripts": {
