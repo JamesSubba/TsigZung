@@ -4,7 +4,7 @@ import { login } from '../firebase'
 import { getAuth, sendPasswordResetEmail } from "firebase/auth";
 import { Formik } from 'formik'
 import * as Yup from 'yup'
-import TextField from '../components/TextField';
+import TextField from '../components/TextField'; 
 
 const LoginScreen = () => {
     const validate = Yup.object({
