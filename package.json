@@ -19,7 +19,6 @@
     "react-scripts": "5.0.1",
     "redux": "^4.2.0",
     "uuidv4": "^6.2.13",
-    "web-vitals": "^2.1.4",
     "webpack": "^5.73.0",
     "yup": "^0.32.11"
   },
@@ -46,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "web-vitals": "^2.1.4"
   }
 }
